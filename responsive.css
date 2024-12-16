@@ -1,0 +1,446 @@
+/*============media quiry for small screens, tab and mobiles=====*/
+@media screen and (min-width: 924px) and (max-width: 991px){
+    .sm_logo_right{
+        display: block !important;
+        text-align: right !important;
+        padding-right: 50px;
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .logo{
+        width: 100px !important;
+    }
+    .min-vavigation ul li a {
+        padding: 31px 11px !important;
+        width: max-content;
+        font-size: 11px !important;
+    }
+
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 768px){
+    .sm_logo_right{
+        display: block !important;
+    }
+    .founder{
+        margin-bottom: 30px;
+    }
+    .wrapper_flex aside{
+        height: auto !important;
+    }
+    .panel_wrapper span{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .margin-controller{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .panel_row{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .center_contents p{
+        text-align: justify !important;
+    }
+    .banner .item .cover .header-content{
+        padding: 0 !important;
+    }
+    .dropdown_panel a span {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-top: solid 1px #fff !important;
+        border-left: solid 1px #fff !important;
+        position: absolute;
+        right: 7px;
+        top: 33px;
+        transform: rotate(223deg);
+    }
+    .min-vavigation ul li{
+        width: 100% !important;
+    }
+    .min-vavigation ul{
+        padding-top: 50px !important;
+    }
+    .min-vavigation ul li a{
+        color: #fff !important;
+        width: 100% !important;
+        padding: 12px 27px !important;
+
+    }
+    .dropdown_panel ul {
+        padding: 0 !important;
+        margin: 0 !important;
+        background-color: #fff;
+        position: relative;
+        top: 0;
+        height: auto;
+        width: 100% !important;
+    }
+    .banner .item .cover .header-content h4{
+       font-size: 1em !important;
+    }
+    
+    .search{
+        display:none !important;
+    }
+    .logo_hide{
+        display:none !important;
+    }
+    .min-navbar{
+        height:50px !important;
+    }
+.min-vavigation_add{
+    left:0 !important;
+    transition-duration:0.2s;
+}    
+.min-vavigation {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    left: -700px;
+    z-index: 1000;
+    display:flex;
+    transition-duration:0.2s;
+    top:0;
+    padding: 0;
+    justify-content: flex-start !important;
+}    
+.min-vavigation ul {
+    width: 240px !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start !important;
+    padding-left: 21px !important;
+    flex-direction: column;
+    z-index: 2000;
+    background: #000;
+    left: 0;
+    height: 100%;    
+    
+}
+.rightLogo{
+    display: none !important;
+}
+.left_toggle_btn{
+    display:block !important;
+    width:50px !important;
+    height:50px !important;
+    background:#000 !important;
+    border:none !important;
+    outline:none !important;
+    box-shadow:none !important;
+    color:#fff !important;
+    line-height:50px !important;
+    font-size:18px !important;
+    text-decoration:none !important;
+    position:relative;
+    z-index: 2000;
+}
+.menu_btn {
+    width: 38px;
+    height: 50px;
+    display: block !important;
+    position: absolute;
+    right: 20px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    text-align: center;
+    background: none;
+}
+.menu_btn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    text-align: center;
+    background: none;    
+}
+.menu_btn span{
+    display:block;
+    width:100%;
+    height:2px;
+    background-color:#fff;
+    margin-bottom:5px;
+}
+.menu_cover {
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: #000 !important;
+    z-index: 1000;
+    display:none;
+    opacity: 0.9;
+}
+header {
+    width: 100%;
+    position: relative !important;
+    z-index: 1200 !important;
+}
+.contact_hide{
+    display:none !important;
+}
+.bg-video-wrap h1{
+    font-size:5.9vw !important;
+}    
+.row_flex p {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.form_min_width{
+    min-width:100% !important;
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    display: flex !important;
+    justify-content: center !important;
+}
+.banner-inner-banner {
+    height: 40vh !important;
+    background-color: #777;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sm_logo {
+    display: block !important;
+    width: 98px;
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 30px;
+    left: 15px;
+}
+   .sm_logo img{
+       width:100%;
+   }
+   .navFixed .sm_logo{
+       top:0;
+       width:98px;
+   }
+   .dropdown_panel ul{
+       width: 100% !important;
+   }
+
+
+   .image__wrapper{
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+      justify-content: center;
+   }
+
+
+   .form_panel h3 {
+    text-transform: capitalize;
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 35px !important;
+}
+.form_panel h3 span {
+    font-size: 41px !important;
+    color: #F07922;
+}
+.block:nth-child(2) .contact_list_block::before{
+    content: '';
+    display: none !important;
+}
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 767px){
+
+    
+    .whatsapp_ico {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px !important;
+        height: 35px !important;
+        position: fixed;
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+        bottom: 30px !important;
+        left: 40px;
+        background-color: green;
+        font-size: 26px !important;
+        z-index: 100;
+    }
+    .top_animate{
+        bottom: 28px !important;
+    }
+    .auditing_content{
+        margin-bottom: 20px !important;
+    }
+    .panel_wrapps{
+        margin-bottom: 20px !important;
+    }
+    .services p br{
+        display: none !important;
+    }
+.min_form{
+    background:none !important;
+}
+.min_row h3 {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 29px !important;
+}
+.right-border{
+    border:none !important;
+}
+.enquiry-wrapp{
+    padding:0 !important;
+}
+.col-padd_control{
+    padding-left:15px !important;
+    padding-right:15px !important;
+}
+
+.input_panel input {
+    width: 100%;
+    padding: 10px;
+    color: #777;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 9px 0 !important;
+    border-radius:10px !important;
+}
+.position i{
+    display:none !important;
+}
+.padding_none {
+    padding-left:15px !important;
+    padding-right:15px !important;
+}
+
+.input_panel button {
+    border-radius: 10px;
+    padding: 2px;
+    margin: 9px 0px !important;
+}
+.min_form {
+    overflow: inherit !important;
+}
+.col-wrapper span{
+    left:0 !important;
+    top:0 !important;
+}
+.side_content{
+    padding-left:0 !important;
+    margin:0 !important;
+}
+.min_row{
+    margin:0 !important;
+}
+.row_padd_top{
+    margin:0 !important;
+}
+.col-wrapper {
+    width: 100%;
+    height: 390px !important;
+}
+.activities {
+    padding-top: 50px;
+    margin: -5px !important;
+}
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 575px){
+    .banner .item .cover .header-content h1{
+        font-size:28px;
+    }
+    .banner .item .cover .header-content h2{
+        font-size:28px;
+    }
+    .contact-list{
+        padding-top:10% !important;
+        padding-left: 15px !important;
+    }
+    
+ .socialMedia ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    /*justify-content: center !important;*/
+}   
+
+.activities .owl-carousel .owl-nav button:nth-child(2) {
+    right: 0 !important;
+} 
+.activities .owl-carousel .owl-nav button:nth-child(1) {
+    left: 0 !important;
+} 
+.achievement_pan h6 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px !important;
+}
+
+.owl_nav_display_control{}
+.owl_nav_display_control .owl-carousel{}
+.owl_nav_display_control .owl-carousel .owl-nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute !important;
+    bottom: -27px !important;
+    width: 100% !important;
+}   
+.owl_nav_display_control .owl-carousel .owl-nav button {
+    display: block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: #000 !important;
+    color: #fff !important;
+    margin: 5px !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
